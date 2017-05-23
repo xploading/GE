@@ -9,16 +9,24 @@
 import Foundation
 import UIKit
 
+let BaiscURL = URL(string: "")
 
 
 let GWidth  = UIScreen.main.bounds.width
 let GHeight = UIScreen.main.bounds.height
 
-//图片闭包
-var GImageBlock : ((UIImage)->Void)?
-//model闭包
-var GModelBlock : ((GEModel)->Void)?
 
+//图片闭包
+var GImageBlock : ((UIImage)->Void) = { image in
+    print("GImageBlock执行错误,未找到可执行的block方法")
+}
+//model闭包
+var GModelBlock : ((GEModel)->Void) = { model in
+    print("GModelBlock执行错误,未找到可执行的block方法")
+}
+
+
+//MARK:Frame相关
 
 
 

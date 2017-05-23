@@ -9,17 +9,44 @@
 import UIKit
 
 class BasicViewController: GEViewController {
-
+    var i = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.lightGray
+        for i in 0..<4{
+        let button = UIButton(frame: CGRect.init(x: CGFloat(i)*60, y: 300, width: 50, height: 50))
+            button.setTitle("按钮\(i)", for: .normal)
+            button.tag = i
+            button.addTarget(self, action: #selector(clickButton), for: .touchUpInside)
+        self.view.addSubview(button)
+        }
+        
+        
         // Do any additional setup after loading the view.
+ 
+        
     }
-
+    func clickButton(button:UIButton){
+        let url = "http://192.168.1.178:8080/CrowdFunding/api/userinfo_xrPresentationError"
+        let url2 = "http://192.168.1.178:8080/CrowdFunding/api/userinfo_ddPresentationError"
+        let para = ["content":"测试数据"]
+        GERequest.POST(urlString: url, paraments: para, successBack: { (json) in
+            print(json)
+        }) { (error) in
+            
+        }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = ViewController1()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }

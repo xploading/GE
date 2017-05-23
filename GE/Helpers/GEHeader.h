@@ -10,7 +10,7 @@
 #define GEHeader_h
 //$(SRCROOT)/GE/Helpers/GEHeader.h
 
-//#import "AFNetworking.h"
+#import "AFNetworking.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonHMAC.h>
 

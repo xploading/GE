@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A83CBCB45EDA10C7F7AA5312 /* libPods-BigRabbit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3B2890A686B4C32E411802 /* libPods-BigRabbit.a */; };
-		DF15D3A71ED3BC8600286415 /* GETools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3A61ED3BC8600286415 /* GETools.swift */; };
+		DF15D3A71ED3BC8600286415 /* GETool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3A61ED3BC8600286415 /* GETool.swift */; };
 		DF15D3A91ED402A600286415 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3A81ED402A600286415 /* BasicViewController.swift */; };
 		DF15D3AB1ED4042C00286415 /* GEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3AA1ED4042C00286415 /* GEModel.swift */; };
 		DF15D3AD1ED4061C00286415 /* GEBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3AC1ED4061C00286415 /* GEBox.swift */; };
+		DF15D3B11ED4188F00286415 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3B01ED4188F00286415 /* ViewController1.swift */; };
+		DF15D3B31ED419DD00286415 /* GEUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3B21ED419DD00286415 /* GEUserModel.swift */; };
+		DF15D3B51ED420C400286415 /* GERequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3B41ED420C400286415 /* GERequest.swift */; };
+		DF15D3B91ED427BD00286415 /* GEProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3B81ED427BD00286415 /* GEProtocol.swift */; };
+		DF15D3BB1ED42A0000286415 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3BA1ED42A0000286415 /* ExtensionUIView.swift */; };
 		DF4C70D41ED2B8CD00F52255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70D31ED2B8CD00F52255 /* AppDelegate.swift */; };
 		DF4C70DB1ED2B8CD00F52255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4C70DA1ED2B8CD00F52255 /* Assets.xcassets */; };
 		DF4C70DE1ED2B8CD00F52255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4C70DC1ED2B8CD00F52255 /* LaunchScreen.storyboard */; };
-		DF4C70FA1ED2B98200F52255 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70F91ED2B98200F52255 /* GlobalConst.swift */; };
+		DF4C70FA1ED2B98200F52255 /* GEGlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70F91ED2B98200F52255 /* GEGlobalConst.swift */; };
 		DF4C70FD1ED2BA7700F52255 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */; };
 		DF4C70FF1ED2BA8B00F52255 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */; };
 		DF501CF71ED3BBD000B6C418 /* GEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF501CF61ED3BBD000B6C418 /* GEViewController.swift */; };
@@ -25,16 +30,21 @@
 /* Begin PBXFileReference section */
 		9A3B2890A686B4C32E411802 /* libPods-BigRabbit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BigRabbit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAFD25C706FB9AD8DB00B79 /* Pods-BigRabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigRabbit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigRabbit/Pods-BigRabbit.release.xcconfig"; sourceTree = "<group>"; };
-		DF15D3A61ED3BC8600286415 /* GETools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETools.swift; sourceTree = "<group>"; };
+		DF15D3A61ED3BC8600286415 /* GETool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETool.swift; sourceTree = "<group>"; };
 		DF15D3A81ED402A600286415 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		DF15D3AA1ED4042C00286415 /* GEModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEModel.swift; sourceTree = "<group>"; };
 		DF15D3AC1ED4061C00286415 /* GEBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEBox.swift; sourceTree = "<group>"; };
+		DF15D3B01ED4188F00286415 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DF15D3B21ED419DD00286415 /* GEUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEUserModel.swift; sourceTree = "<group>"; };
+		DF15D3B41ED420C400286415 /* GERequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GERequest.swift; sourceTree = "<group>"; };
+		DF15D3B81ED427BD00286415 /* GEProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEProtocol.swift; sourceTree = "<group>"; };
+		DF15D3BA1ED42A0000286415 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
 		DF4C70D01ED2B8CD00F52255 /* BigRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4C70D31ED2B8CD00F52255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4C70DA1ED2B8CD00F52255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4C70DD1ED2B8CD00F52255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4C70DF1ED2B8CD00F52255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF4C70F91ED2B98200F52255 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		DF4C70F91ED2B98200F52255 /* GEGlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEGlobalConst.swift; sourceTree = "<group>"; };
 		DF4C70FB1ED2B99F00F52255 /* GEHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEHeader.h; sourceTree = "<group>"; };
 		DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 		DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
@@ -99,6 +109,7 @@
 				DF4C70DC1ED2B8CD00F52255 /* LaunchScreen.storyboard */,
 				DF4C70DF1ED2B8CD00F52255 /* Info.plist */,
 				DF15D3A81ED402A600286415 /* BasicViewController.swift */,
+				DF15D3B01ED4188F00286415 /* ViewController1.swift */,
 			);
 			path = BigRabbit;
 			sourceTree = "<group>";
@@ -106,10 +117,10 @@
 		DF4C70E51ED2B91C00F52255 /* GE */ = {
 			isa = PBXGroup;
 			children = (
-				DF4C70E61ED2B91C00F52255 /* General */,
 				DF4C70F01ED2B91D00F52255 /* Helpers */,
-				DF4C70F21ED2B91D00F52255 /* Library */,
 				DF4C70F31ED2B91D00F52255 /* Macro */,
+				DF4C70E61ED2B91C00F52255 /* General */,
+				DF4C70F21ED2B91D00F52255 /* Library */,
 			);
 			path = GE;
 			sourceTree = "<group>";
@@ -150,6 +161,7 @@
 			children = (
 				DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */,
 				DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */,
+				DF15D3BA1ED42A0000286415 /* ExtensionUIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -157,6 +169,7 @@
 		DF4C70EC1ED2B91D00F52255 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DF15D3B21ED419DD00286415 /* GEUserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,7 +177,9 @@
 		DF4C70ED1ED2B91D00F52255 /* Pubilc */ = {
 			isa = PBXGroup;
 			children = (
-				DF15D3A61ED3BC8600286415 /* GETools.swift */,
+				DF15D3A61ED3BC8600286415 /* GETool.swift */,
+				DF15D3B41ED420C400286415 /* GERequest.swift */,
+				DF15D3B81ED427BD00286415 /* GEProtocol.swift */,
 			);
 			path = Pubilc;
 			sourceTree = "<group>";
@@ -194,7 +209,7 @@
 		DF4C70F31ED2B91D00F52255 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				DF4C70F91ED2B98200F52255 /* GlobalConst.swift */,
+				DF4C70F91ED2B98200F52255 /* GEGlobalConst.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -322,14 +337,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF15D3B51ED420C400286415 /* GERequest.swift in Sources */,
 				DF4C70FD1ED2BA7700F52255 /* ExtensionString.swift in Sources */,
 				DF15D3AB1ED4042C00286415 /* GEModel.swift in Sources */,
+				DF15D3B11ED4188F00286415 /* ViewController1.swift in Sources */,
 				DF15D3A91ED402A600286415 /* BasicViewController.swift in Sources */,
+				DF15D3B91ED427BD00286415 /* GEProtocol.swift in Sources */,
+				DF15D3B31ED419DD00286415 /* GEUserModel.swift in Sources */,
 				DF15D3AD1ED4061C00286415 /* GEBox.swift in Sources */,
 				DF501CF71ED3BBD000B6C418 /* GEViewController.swift in Sources */,
+				DF15D3BB1ED42A0000286415 /* ExtensionUIView.swift in Sources */,
 				DF501CF91ED3BC0A00B6C418 /* GEView.swift in Sources */,
-				DF4C70FA1ED2B98200F52255 /* GlobalConst.swift in Sources */,
-				DF15D3A71ED3BC8600286415 /* GETools.swift in Sources */,
+				DF4C70FA1ED2B98200F52255 /* GEGlobalConst.swift in Sources */,
+				DF15D3A71ED3BC8600286415 /* GETool.swift in Sources */,
 				DF4C70FF1ED2BA8B00F52255 /* ExtensionUIColor.swift in Sources */,
 				DF4C70D41ED2B8CD00F52255 /* AppDelegate.swift in Sources */,
 			);

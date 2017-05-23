@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GETools: NSObject {
+class GETool: NSObject {
 //MARK:----------正则表达式判断
     
     /** 验证手机号合法性*/
@@ -35,6 +35,20 @@ class GETools: NSObject {
         let predicate = NSPredicate(format: "SELF MATCHES %@", regex)
         return predicate.evaluate(with: number)
     }
+//MARK:----------用户登录管理
+    /**登录状态判断*/
+    static func isLogin()->Bool{
+        let result = (GEBox.single().infos != nil) ? true : false
+        return result
+    }
+    /**本地保存用户信息*/
+    static func zzSaveInfomation(){
+        print("储存用户信息")
+    }
+    static func zzDeleteInfomation(){
+        print("删除用户信息")
+    }
+//MARK:----------键盘管理
     
 }
 

@@ -9,6 +9,10 @@
 import UIKit
 /**单例用户储存盒子*/
 final class GEBox: NSObject {
+    //储存用户信息
+    var infos : GEUserModel?
+    
+    
     private static let box = GEBox()
     static func single()->GEBox{
         return box
