@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83CBCB45EDA10C7F7AA5312 /* libPods-BigRabbit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3B2890A686B4C32E411802 /* libPods-BigRabbit.a */; };
+		DF15D3A71ED3BC8600286415 /* GETools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15D3A61ED3BC8600286415 /* GETools.swift */; };
 		DF4C70D41ED2B8CD00F52255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70D31ED2B8CD00F52255 /* AppDelegate.swift */; };
 		DF4C70D61ED2B8CD00F52255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70D51ED2B8CD00F52255 /* ViewController.swift */; };
 		DF4C70D91ED2B8CD00F52255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4C70D71ED2B8CD00F52255 /* Main.storyboard */; };
 		DF4C70DB1ED2B8CD00F52255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4C70DA1ED2B8CD00F52255 /* Assets.xcassets */; };
 		DF4C70DE1ED2B8CD00F52255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4C70DC1ED2B8CD00F52255 /* LaunchScreen.storyboard */; };
+		DF4C70FA1ED2B98200F52255 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70F91ED2B98200F52255 /* GlobalConst.swift */; };
+		DF4C70FD1ED2BA7700F52255 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */; };
+		DF4C70FF1ED2BA8B00F52255 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */; };
+		DF501CF71ED3BBD000B6C418 /* GEBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF501CF61ED3BBD000B6C418 /* GEBasicViewController.swift */; };
+		DF501CF91ED3BC0A00B6C418 /* GEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF501CF81ED3BC0A00B6C418 /* GEView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A3B2890A686B4C32E411802 /* libPods-BigRabbit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BigRabbit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAFD25C706FB9AD8DB00B79 /* Pods-BigRabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigRabbit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigRabbit/Pods-BigRabbit.release.xcconfig"; sourceTree = "<group>"; };
+		DF15D3A61ED3BC8600286415 /* GETools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETools.swift; sourceTree = "<group>"; };
 		DF4C70D01ED2B8CD00F52255 /* BigRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4C70D31ED2B8CD00F52255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4C70D51ED2B8CD00F52255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,13 @@
 		DF4C70DA1ED2B8CD00F52255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4C70DD1ED2B8CD00F52255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4C70DF1ED2B8CD00F52255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4C70F91ED2B98200F52255 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		DF4C70FB1ED2B99F00F52255 /* GEHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEHeader.h; sourceTree = "<group>"; };
+		DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		DF501CF61ED3BBD000B6C418 /* GEBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEBasicViewController.swift; sourceTree = "<group>"; };
+		DF501CF81ED3BC0A00B6C418 /* GEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEView.swift; sourceTree = "<group>"; };
+		EC6E722A6D1D642447CCF6C2 /* Pods-BigRabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigRabbit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigRabbit/Pods-BigRabbit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83CBCB45EDA10C7F7AA5312 /* libPods-BigRabbit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CBCE737F93DF0DA4BDFD1E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E722A6D1D642447CCF6C2 /* Pods-BigRabbit.debug.xcconfig */,
+				DDAFD25C706FB9AD8DB00B79 /* Pods-BigRabbit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8AC59CE7FC9988764D8E41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B2890A686B4C32E411802 /* libPods-BigRabbit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF4C70C71ED2B8CD00F52255 = {
 			isa = PBXGroup;
 			children = (
+				DF4C70E51ED2B91C00F52255 /* GE */,
 				DF4C70D21ED2B8CD00F52255 /* BigRabbit */,
 				DF4C70D11ED2B8CD00F52255 /* Products */,
+				2CBCE737F93DF0DA4BDFD1E2 /* Pods */,
+				C8AC59CE7FC9988764D8E41A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +102,100 @@
 			path = BigRabbit;
 			sourceTree = "<group>";
 		};
+		DF4C70E51ED2B91C00F52255 /* GE */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C70E61ED2B91C00F52255 /* General */,
+				DF4C70F01ED2B91D00F52255 /* Helpers */,
+				DF4C70F21ED2B91D00F52255 /* Library */,
+				DF4C70F31ED2B91D00F52255 /* Macro */,
+			);
+			path = GE;
+			sourceTree = "<group>";
+		};
+		DF4C70E61ED2B91C00F52255 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C70E71ED2B91C00F52255 /* Baisc */,
+				DF4C70E81ED2B91C00F52255 /* Core */,
+				DF4C70E91ED2B91C00F52255 /* Extension */,
+				DF4C70EC1ED2B91D00F52255 /* Models */,
+				DF4C70ED1ED2B91D00F52255 /* Pubilc */,
+				DF4C70EF1ED2B91D00F52255 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		DF4C70E71ED2B91C00F52255 /* Baisc */ = {
+			isa = PBXGroup;
+			children = (
+				DF501CF61ED3BBD000B6C418 /* GEBasicViewController.swift */,
+				DF501CF81ED3BC0A00B6C418 /* GEView.swift */,
+			);
+			path = Baisc;
+			sourceTree = "<group>";
+		};
+		DF4C70E81ED2B91C00F52255 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DF4C70E91ED2B91C00F52255 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C70FC1ED2BA7700F52255 /* ExtensionString.swift */,
+				DF4C70FE1ED2BA8B00F52255 /* ExtensionUIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DF4C70EC1ED2B91D00F52255 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF4C70ED1ED2B91D00F52255 /* Pubilc */ = {
+			isa = PBXGroup;
+			children = (
+				DF15D3A61ED3BC8600286415 /* GETools.swift */,
+			);
+			path = Pubilc;
+			sourceTree = "<group>";
+		};
+		DF4C70EF1ED2B91D00F52255 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF4C70F01ED2B91D00F52255 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C70FB1ED2B99F00F52255 /* GEHeader.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF4C70F21ED2B91D00F52255 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DF4C70F31ED2B91D00F52255 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C70F91ED2B98200F52255 /* GlobalConst.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4C70E21ED2B8CD00F52255 /* Build configuration list for PBXNativeTarget "BigRabbit" */;
 			buildPhases = (
+				CB4289BDA93980A79609AA47 /* [CP] Check Pods Manifest.lock */,
 				DF4C70CC1ED2B8CD00F52255 /* Sources */,
 				DF4C70CD1ED2B8CD00F52255 /* Frameworks */,
 				DF4C70CE1ED2B8CD00F52255 /* Resources */,
+				9847DAD5A35E8848951B6295 /* [CP] Embed Pods Frameworks */,
+				599929A659889C87CB8A944B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +267,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		599929A659889C87CB8A944B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigRabbit/Pods-BigRabbit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9847DAD5A35E8848951B6295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigRabbit/Pods-BigRabbit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4289BDA93980A79609AA47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF4C70CC1ED2B8CD00F52255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4C70FD1ED2BA7700F52255 /* ExtensionString.swift in Sources */,
+				DF501CF71ED3BBD000B6C418 /* GEBasicViewController.swift in Sources */,
 				DF4C70D61ED2B8CD00F52255 /* ViewController.swift in Sources */,
+				DF501CF91ED3BC0A00B6C418 /* GEView.swift in Sources */,
+				DF4C70FA1ED2B98200F52255 /* GlobalConst.swift in Sources */,
+				DF15D3A71ED3BC8600286415 /* GETools.swift in Sources */,
+				DF4C70FF1ED2BA8B00F52255 /* ExtensionUIColor.swift in Sources */,
 				DF4C70D41ED2B8CD00F52255 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,27 +450,35 @@
 		};
 		DF4C70E31ED2B8CD00F52255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6E722A6D1D642447CCF6C2 /* Pods-BigRabbit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
 				INFOPLIST_FILE = BigRabbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.iluckyday.BigRabbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GE/Helpers/GEHeader.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF4C70E41ED2B8CD00F52255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAFD25C706FB9AD8DB00B79 /* Pods-BigRabbit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
 				INFOPLIST_FILE = BigRabbit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.iluckyday.BigRabbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GE/Helpers/GEHeader.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +501,7 @@
 				DF4C70E41ED2B8CD00F52255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
