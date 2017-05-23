@@ -2,4 +2,5 @@ platform :ios, '10.2'
 target 'BigRabbit' do
 pod 'AFNetworking'
 pod 'SDWebImage'
+pod 'MBProgressHUD'
 end

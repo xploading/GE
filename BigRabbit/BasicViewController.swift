@@ -19,23 +19,20 @@ class BasicViewController: GEViewController {
             button.setTitle("按钮\(i)", for: .normal)
             button.tag = i
             button.addTarget(self, action: #selector(clickButton), for: .touchUpInside)
+            
         self.view.addSubview(button)
         }
-        
         
         // Do any additional setup after loading the view.
  
         
     }
     func clickButton(button:UIButton){
-        let url = "http://192.168.1.178:8080/CrowdFunding/api/userinfo_xrPresentationError"
-        let url2 = "http://192.168.1.178:8080/CrowdFunding/api/userinfo_ddPresentationError"
-        let para = ["content":"测试数据"]
-        GERequest.POST(urlString: url, paraments: para, successBack: { (json) in
-            print(json)
-        }) { (error) in
-            
-        }
+        var a : String = ""
+        let result = isNonEmpty(a)
+        print(result)
+        
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

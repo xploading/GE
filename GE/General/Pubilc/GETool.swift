@@ -48,6 +48,11 @@ class GETool: NSObject {
     static func zzDeleteInfomation(){
         print("删除用户信息")
     }
+    
+    
+
+    
+    
 //MARK:----------键盘管理
     
 }
