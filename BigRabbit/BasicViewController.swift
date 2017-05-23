@@ -1,18 +1,19 @@
 //
-//  ViewController.swift
+//  BasicViewController.swift
 //  BigRabbit
 //
-//  Created by QTJT on 2017/5/22.
+//  Created by QTJT on 2017/5/23.
 //  Copyright © 2017年 Rabbit. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class BasicViewController: GEViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +23,3 @@ class ViewController: UIViewController {
 
 
 }
-

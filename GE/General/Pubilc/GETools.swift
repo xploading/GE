@@ -35,4 +35,19 @@ class GETools: NSObject {
         let predicate = NSPredicate(format: "SELF MATCHES %@", regex)
         return predicate.evaluate(with: number)
     }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
