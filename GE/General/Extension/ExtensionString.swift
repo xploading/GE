@@ -9,6 +9,19 @@
 import Foundation
 
 
+///判断空的字符串,包含nil和无字符状态
+func isNull(_ s:String?)->Bool{
+    if s == nil{
+        return true
+    }
+    if s!.isEmpty{
+        return true
+    }
+    return false
+    
+}
+
+
 //MARK:字符串处理
 extension String{
     
@@ -40,6 +53,7 @@ extension String{
         }
         return mutStr
     }
+
     
 }
 

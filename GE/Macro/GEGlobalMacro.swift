@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-let BaiscURL = URL(string: "")
 
 
 let GWidth      = UIScreen.main.bounds.width     //屏宽
@@ -43,19 +42,8 @@ func zzFit(h:CGFloat)->CGFloat
     return h*GHeight/736
 }
 //获取文件路径
-func zzSourcePath(_ name:String?,of Type:String?)->String?{
-    return Bundle.main.path(forResource: name, ofType: Type)
-}
-//判断空的字符串,包含nil和无字符状态
-func isNonEmpty(_ s:String?)->Bool{
-    if s == nil{
-        return false
-    }
-    if s!.isEmpty{
-        return false
-    }
-    return true
-        
+func zzPath(_ forName:String?,of Type:String?)->String?{
+    return Bundle.main.path(forResource: forName, ofType: Type)
 }
 
 

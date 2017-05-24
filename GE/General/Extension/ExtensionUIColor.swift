@@ -30,6 +30,7 @@ extension UIColor{
         Scanner(string: bString).scanHexInt32(&b)
         return UIColor(red: CGFloat(r)/255, green: CGFloat(g)/255, blue: CGFloat(b)/255, alpha: alpha)
     }
+    
 
 }
 

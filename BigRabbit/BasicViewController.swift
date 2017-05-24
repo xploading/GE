@@ -28,10 +28,10 @@ class BasicViewController: GEViewController {
         
     }
     func clickButton(button:UIButton){
-        var a : String = ""
-        let result = isNonEmpty(a)
-        print(result)
         
+        
+        
+   
         
     }
     

@@ -11,7 +11,7 @@ import UIKit
 class GERequest: NSObject {
     
 /** AFNetworking管理类*/
-    private static let manager = AFHTTPSessionManager(baseURL: BaiscURL)
+    private static let manager = AFHTTPSessionManager(baseURL: URL(string: BaseURL))
     static func share()->AFHTTPSessionManager{
         let set = Set<String>(arrayLiteral: "text/html","text/plain","text/json","application/json", "text/javascript")
         manager.responseSerializer.acceptableContentTypes = set

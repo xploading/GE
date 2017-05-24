@@ -53,7 +53,7 @@ class GETool: NSObject {
 
     
     
-//MARK:----------键盘管理
+
     
 }
 
